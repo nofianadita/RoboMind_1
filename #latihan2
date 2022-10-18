@@ -1,0 +1,12 @@
+#Pindah beacon1
+#Maps: default
+east(4)
+north(7)
+east(9)
+north(1)
+pickUp()
+south(1)
+west(13)
+north(2)
+west(4)
+putDown()
