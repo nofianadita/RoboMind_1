@@ -1,0 +1,22 @@
+# Maps: default.map
+
+right forward(1)
+repeat(){
+    if(frontiswhite){
+        forward(1)
+    }
+    else if(leftiswhite){
+        left
+        forward(1)
+    }
+    else if(rightiswhite){
+        right
+        forward(1)
+    }
+    else if(frontisclear){
+        forward(1)
+    }
+    else if(frontisobstacle){
+        end
+    }
+}
