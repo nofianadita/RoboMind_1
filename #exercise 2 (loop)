@@ -1,0 +1,11 @@
+# Maps: openArea.map
+
+repeat(4){
+    paintwhite
+    repeat(1){
+        forward(3)
+        repeat(3){
+            left forward(1)
+        }
+    }
+}
