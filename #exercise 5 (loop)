@@ -1,0 +1,11 @@
+# Maps: gorightWhite2.map
+
+repeatwhile(~frontiswhite){
+    forward(1)
+    if(frontiswhite){
+        forward(1)
+        right()
+    }else if(frontisobstacle){
+        end
+    }
+}
