@@ -1,0 +1,11 @@
+# Mpas: openArea.map
+
+repeat(3){
+    paintwhite
+    east 
+    south 
+    west 
+    north
+    stoppainting
+    north(2)
+}
