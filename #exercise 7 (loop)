@@ -1,0 +1,13 @@
+# Maps: changebelt.map
+
+repeatwhile(frontisbeacon){
+    pickup
+    right(2)
+    putdown
+    left 
+    forward(1)
+    left
+    }
+    if(frontisclear){
+        end
+    }
