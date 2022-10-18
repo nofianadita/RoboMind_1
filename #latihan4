@@ -1,0 +1,11 @@
+#papancatur
+#Maps: castile
+
+paintWhite()
+west(5)
+north(5)
+east(10)
+south(10)
+west(10)
+north(5)
+east(10)
