@@ -1,0 +1,10 @@
+# Maps: copyline1
+
+steps=0
+repeatwhile(leftisblack){
+    forward(1)
+    steps=steps+1
+    }
+    backward
+    paintwhite
+    backward(steps-1)
